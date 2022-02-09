@@ -10,6 +10,10 @@ router.get('/', (req, res) => {
 router.get('/news', (req, res) => {
     res.redirect('https://raw.githubusercontent.com/Zhirrr/My-SQL-Results/main/Berita.json')
 })
+router.get('/panel', (req, res) => {
+    res.redirect('https://panel.falixnodes.net')
+})
+
 
 router.get('/config', (req, res) => {
     config = {
